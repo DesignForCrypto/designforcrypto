@@ -4125,7 +4125,6 @@ hr {
 }
 [class*='bg-']:not(.bg--white):not(.bg--secondary) p,
 [class*='imagebg']:not(.image--light) p {
-  opacity: .9;
 }
 .lead {
   font-weight: 400;

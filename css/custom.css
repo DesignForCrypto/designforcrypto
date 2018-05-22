@@ -3,11 +3,11 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-h1,h3 {
+h1,h3,h4 {
     font-family: 'Montserrat', sans-serif;
 }
 
-h3 {
+h3,h4 {
     color: #fff;
 }
 
@@ -41,7 +41,15 @@ footer {
     color: #fff;
 }
 
-.short-description {
+.bg-7 {
+    background: #fff;
+    color: #000;
+}
+
+.why {
     font-size: 20px;
 }
 
+p {
+    font-size: 16px;
+}
