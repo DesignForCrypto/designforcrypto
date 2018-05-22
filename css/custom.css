@@ -1,0 +1,47 @@
+/*! Place your custom styles here */
+.btn {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    color: #fff;
+}
+
+footer {
+    background: #2C2C2C;
+    color: #fff;
+}
+
+.bg-1 {
+    background: #36455B;
+    color: #fff;
+}
+
+.bg-2 {
+    background: #1CA495;
+    color: #fff;
+}
+
+.bg-3 {
+    background: #DD7373;
+    color: #fff;
+}
+
+.bg-4 {
+    background: #3B3561;
+    color: #fff;
+}
+
+.bg-5 {
+    background: #9055A2;
+    color: #fff;
+}
+
+.short-description {
+    font-size: 20px;
+}
+
