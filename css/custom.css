@@ -66,3 +66,22 @@ footer {
 p {
     font-size: 16px;
 }
+
+/* 2-color version */
+
+.bg-c1 {
+    background: #FFE473;
+    color: #000;
+}
+.bg-c1 h3 {
+    color: #000;
+}
+
+
+.bg-c2 {
+    background: #FFE88C;
+    color: #000;
+}
+.bg-c2 h3 {
+    color: #000;
+}
