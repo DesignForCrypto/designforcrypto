@@ -95,6 +95,12 @@ img.principle-img {
     margin-top: 20px;
 }
 
+a.principle {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
 input.foot-input {
     background: #353535;
     font-family: OpenSans;
