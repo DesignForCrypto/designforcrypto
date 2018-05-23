@@ -9,6 +9,11 @@ h1,h3,h4 {
     font-style: normal
 }
 
+.background-info {
+    font-family: 'Lora', serif;
+    font-style: italic;
+}
+
 h3,h4 {
     color: #fff;
 }
@@ -20,6 +25,12 @@ footer {
 
 .bg-1 {
     background: #3B3561;
+    color: #fff;
+}
+.bg-1 h1 {
+    color: #fff;
+}
+.bg-1 p {
     color: #fff;
 }
 
@@ -172,3 +183,47 @@ p {
     margin-right: -15px;
     margin-left: -15px;
 }
+
+h1.principle {
+    font-size: 2em;
+    margin-top: 0.83em;
+}
+
+.quote-card {
+ background: #fff;
+ color: #222222;
+ padding: 20px;
+ padding-left: 50px;
+ box-sizing: border-box;
+ border-top: 1px #333;
+ border-bottom: 1px #333;
+ position: relative;
+ overflow: hidden;
+ min-height: 120px;
+ margin-top: 40px;
+ margin-bottom: 40px;
+}
+
+.quote-card p {
+ font-size: 22px;
+ line-height: 1.5;
+ margin: 0;
+ text-align: center;
+}
+
+@media (max-width: 640px) {
+ .quote-card:after {
+   font-size: 22em;
+   right: -25px;
+ }
+}
+
+
+.case-detail h3 {
+   color:#333;
+}
+
+/*.detail-nav {
+   background: #35455C;
+   color: #fff;
+*/

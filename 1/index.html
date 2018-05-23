@@ -13,8 +13,8 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet">
     </head>
-    <body class="bg-1" data-smooth-scroll-offset="77">
-        <div class="nav-container">
+    <body data-smooth-scroll-offset="77">
+        <div class="nav-container detail-nav">
             <div>
                 <div class="bar bar--sm visible-xs">
                     <div class="container">
@@ -33,7 +33,7 @@
                         <div class="row">
                             <div class="col-lg-1 col-md-2 hidden-xs">
                                 <div class="bar__module">
-                                    <a href="/"> <img class="logo logo-dark" alt="logo" src="../img/logo-dark.png"> <img class="logo logo-light" alt="logo" src="../img/logo-light.png"> </a>
+                                    <a href="/"> <img class="logo logo-dark" alt="logo" src="../img/logo-dark.png"><img class="logo logo-light" alt="logo" src="../img/logo-light.png"> </a>
                                 </div>
                             </div>
                             <div class="col-lg-11 col-md-12 text-right text-left-xs text-left-sm">
@@ -54,61 +54,116 @@
                 </nav>
             </div>
         </div>
-        <div class="main-container">
-            <section class="bg-1">
-                <div class="container">
-                    <div class="row text-center">
-                        <div class="col-lg-12"> <img alt="Circle" src="../img/circle.png"></div>
-                    </div>
-                    <div class="row text-center">
-                        <div class="col-lg-12"><h3>Disallow signups from used addresses</h3></div>
-                    </div>
-                    <div class="row">
-                        <p>Don't let users irreversibly link their transaction history to your dapp's signup.</p>
-                    </div>
-                </div>
-                <br/>
-                <div class="container">
-                    <div class="row">
-                        <h4>Do's</h4>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <h4>Dont's</h4>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <h4>Examples</h4>
-                    </div>
-                </div>
+
+    <main role="main">
+      <section class="bg-1 jumbotron text-center">
+        <div class="container ">
+            <div class="row align-items-center">
+              <img class="../img-fluid principle-img" alt="Circle" src="../img/img-refuse.png"> </div>  
+              <h1 class="principle">Avoid signups from used addresses</h1>
+              <p class="lead align-items-center principle-why">The user’s transaction history across dapps shouldn’t be public.</p>
             </div>
-            </section>
+        </div>
+      </section>
+
+      <section>
+          <div class="container">
+              <blockquote class="quote-card">
+              <p class="background-info"> You’re responsible for safeguarding your user’s privacy. Assume the data on the blockchain will remain there forever, and that it will be trivial to correlate user-operated addresses through their transaction history. Avoid linking addresses with a history to anything that contains the user’s personal information.  </p>
+            </blockquote>
+          </div>
+      </section>
+
+      <div class="py-5 bg-light">
+        <div class="container">
+          <div class="row case-detail">
+              <p>Early in your dapp’s onboarding process, check whether the public address that the user is signing up with has been used before.</p>
+            <h3>Case 1: your signup is free or subsidized</h3>
+            <p>If your signup uses an off-chain signature validation or you’re going to cover the costs of storing your user’s data on the blockchain, you should ask the user to switch to a new address. After she does, you can complete the signup.</p>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="../img/download.svg" alt="Card image cap">
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="../img/download.svg" alt="Card image cap">
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="../img/download.svg" alt="Card image cap">
+              </div>
+            </div>
+            </p>
+            <h3>Case 2: the user needs to pay when signing up</h3>
+            <p>If the user needs an address with funds, the safest thing to do is to ask the user to switch to a new address and fund it through an exchange, then come back to your dapp to complete the signup. This introduces a lot of friction, but is especially required in dapps that expose some personal information.</p>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="../img/download.svg" alt="Card image cap">
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="../img/download.svg" alt="Card image cap">
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="../img/download.svg" alt="Card image cap">
+              </div>
+            </div>
+            </p>
+            <h3>General warnings aren't enough</h3>
+            <p>Even if you warn that Ethereum addresses and transaction histories are public, the user will rarely stop to think about where he's used his account before. At the very least, your dapp should expose what it knows about the address being used so the user makes an informed decision about whether to use it.</p>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="../img/download.svg" alt="Card image cap">
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="../img/download.svg" alt="Card image cap">
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="../img/download.svg" alt="Card image cap">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
             <footer class="footer-4 space--sm text-center-xs">
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-4">
-                            <form class="row" action="//mrare.us8.list-manage.com/subscribe/post?u=77142ece814d3cff52058a51f&amp;id=f300c9cce8" data-success="Thanks for signing up.  Please check your inbox for a confirmation email." data-error="Please provide your email address.">
-                                <div class="col-sm-9"> <input class="validate-required validate-email" name="EMAIL" placeholder="Email Address" type="text"> </div>
+                            <span class="foot-label">Subscribe and get the latest news</span>
+                            <form class="row" action="//mrare.us8.list-manage.com/subscribe/post?u=77142ece814d3cff52058a51f&amp;id=f3fdde8" data-success="Thanks for signing up.  Please check your inbox for a confirmation email." data-error="Please provide your email address.">
+                                <div class="col-sm-9"> <input class="validate-required validate-email foot-input" name="EMAIL" placeholder="Email Address" type="text"> </div>
                                 <div class="col-sm-3"> <button type="submit" class="btn btn--primary type--uppercase"><span class="btn__text">→</span></button> </div>
                                 <div style="position: absolute; left: -5000px" aria-hidden="true"> <input name="b_77142ece814d3cff52058a51f_f300c9cce8" tabindex="-1" value="" type="text"> </div>
                             </form>
                         </div>
-                        <div class="col-sm-4"> <img alt="Image" class="logo" src="../img/logo-light.png"> </div>
-                        <div class="col-sm-4 text-right text-center-xs block--xs">
-                            <span>Follow us</span>
-                            <ul class="social-list list-inline list--hover">
-                                <li><a href="#"><i class="socicon socicon-twitter icon icon--xs"></i></a></li>
+                        <div class="col-sm-4"> 
+                            <p class="foot-logo text-center">designforcrypto</p>
+                        </div>
+                        <div class="col-sm-4 text-left text-center-xs block--xs">
+                            <span class="foot-label">Follow us<br/></span>
+                                <ul class="foot-icons social-list list-inline list--hover">
+                                <li><a href="#"><i class="socicon socicon-twitter icon icon--sm"></i></a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-sm-6"> <span class="type--fine-print">Made with <3 and \, by Zeppelin and the open UX community</span>  </div>
+                        <hr>
+                        <div class="container">
+                            <p class="type--fine-print m-0 text-center text-white small">Made with ❤️ and ⚡ by <a href="https://zeppelin.solutions/">Zeppelin</a> and the open UX community</p>
+                         </div>
                     </div>
                 </div>
             </footer>
-        </div>
         <script src="../js/jquery-3.1.1.min.js"></script>
         <script src="../js/parallax.js"></script>
         <script src="../js/smooth-scroll.min.js"></script>
