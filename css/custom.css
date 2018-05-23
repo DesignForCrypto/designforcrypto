@@ -9,7 +9,7 @@ h1,h3,h4 {
     font-style: normal
 }
 
-.background-info {
+.background-info,.example {
     font-family: 'Lora', serif;
     font-style: italic;
 }
@@ -227,3 +227,7 @@ h1.principle {
    background: #35455C;
    color: #fff;
 */
+
+.image-group {
+    margin-bottom: 20px;
+}
