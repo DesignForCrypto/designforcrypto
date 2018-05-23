@@ -54,10 +54,9 @@
                 </nav>
             </div>
         </div>
-        <div class="main-container">
-            <section>
+            <section class="above-fold">
                 <div class="container">
-                    <div class="row justify-content-between">
+                    <div class="row align-items-content-between">
                         <div class="col-lg-8">
                                 <h1>Best practices for user-facing dapps, developed and curated by the open UX community.</h1>
                                 <a class="btn btn--primary type--uppercase" href="#"> <span class="btn__text">
@@ -70,94 +69,147 @@
             </section>
             <section>
                 <div class="container bg-1">
-                    <div class="row justify-content-between">
-                        <div class="col-lg-3"> <img alt="Circle" src="img/circle.png"> </div>
-                        <div class="col-lg-9">
-                                <h3>Refuse signups from used addresses</h3>
-                                <p class="why">The user's transaction history across dapps shouldn't be public.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="container bg-2">
-                    <div class="row justify-content-between">
-                        <div class="col-lg-3"> <img alt="Circle" src="img/circle.png"> </div>
-                        <div class="col-lg-9">
-                                <h3>Direct attention away from transaction statuses</h3>
-                                <p class="why">Human attention span is shorter than the update time of most blockchains.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="container bg-3">
-                    <div class="row justify-content-between">
-                        <div class="col-lg-3"> <img alt="Circle" src="img/circle.png"> </div>
-                        <div class="col-lg-9">
-                                <h3>Explain on-chain operations right before requesting them</h3>
-                                <p class="why">Wallets use a lot of technical jargon and can't explain what a transaction will accomplish.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="container bg-4">
-                    <div class="row justify-content-between">
-                        <div class="col-lg-3"> <img alt="Circle" src="img/circle.png"> </div>
-                        <div class="col-lg-9">
-                                <h3>Visually distinguish between off- and on-chain data</h3>
-                                <p class="why">Users have a right to know how every datum is being stored.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="container bg-5">
-                    <div class="row justify-content-between">
-                        <div class="col-lg-3"> <img alt="Circle" src="img/circle.png"> </div>
-                        <div class="col-lg-9">
-                                <h3>Make transaction history accessible</h3>
-                                <!-- What kind of information is it worth it to expose from smart contract events? -->
-                                <p class="why">Having an easy way to verify every on-chain interaction with your dapp builds trust.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="container bg-6">
-                    <div class="row justify-content-between">
-                        <div class="col-lg-3"> <img alt="Circle" src="img/circle.png"> </div>
-                        <div class="col-lg-9">
-                                <h3>Bake education into the experience step-by-step</h3>
-                                <p class="why">People aren't used to blockchains, and need to learn as they use your dapp.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="container bg-7">
-                    <div class="row justify-content-between">
-                        <div class="col-lg-3"> <img alt="Circle" src="img/circle.png"> </div>
-                        <div class="col-lg-9">
-                                <h3>Start with small transactions, ease into larger ones</h3>
-                                <p class="why">Users acquire confidence in your dapp gradually, starting big can scare them away.</p>
+                    <div class="row align-items-center">
+                        <div class="col-lg-4 order-lg-1"> 
+                            <div class="p-5">
+                                <img class="img-fluid principle-img" alt="Circle" src="img/img-refuse.png"> </div>
+                            </div>
+                        <div class="col-lg-8 order-lg-2">
+                                <div class="p-5">
+                                    <h3>Avoid signups from used addresses</h3>
+                                    <p class="why">The user’s transaction history across dapps shouldn’t be public</p>
+                                </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <footer class="footer-4 space--sm text-center-xs">
+            <section>
+                 <div class="container bg-2">
+                    <div class="row align-items-center">
+                        <div class="col-lg-4 order-lg-1"> 
+                            <div class="p-5">
+                                <img class="img-fluid principle-img" alt="Circle" src="img/img-direct.png"> </div>
+                            </div>
+                        <div class="col-lg-8 order-lg-2">
+                                <div class="p-5">
+                                    <h3>Direct attention away from transaction statuses</h3>
+                                    <p class="why">Human attention span is shorter than the update time of most blockchains.</p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                 <div class="container bg-3">
+                    <div class="row align-items-center">
+                        <div class="col-lg-4 order-lg-1"> 
+                            <div class="p-5">
+                                <img class="img-fluid principle-img" alt="Circle" src="img/img-explain.png"> </div>
+                            </div>
+                        <div class="col-lg-8 order-lg-2">
+                                <div class="p-5">
+                                    <h3>Explain on-chain operations right before requesting them</h3>
+                                    <p class="why">Wallets don’t clarify what transactions are for and don’t speak the user’s language.</p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                 <div class="container bg-4">
+                    <div class="row align-items-center">
+                        <div class="col-lg-4 order-lg-1"> 
+                            <div class="p-5">
+                                <img class="img-fluid principle-img" alt="Circle" src="img/img-visually.png"> </div>
+                            </div>
+                        <div class="col-lg-8 order-lg-2">
+                                <div class="p-5">
+                                    <h3>Visually distinguish between on and off-chain data</h3>
+                                    <p class="why">The user has a right to know how every datum is being stored.</p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="container bg-1">
+                    <div class="row align-items-center">
+                        <div class="col-lg-4 order-lg-1"> 
+                            <div class="p-5">
+                                <img class="img-fluid principle-img" alt="Circle" src="img/img-make.png"> </div>
+                            </div>
+                        <div class="col-lg-8 order-lg-2">
+                                <div class="p-5">
+                                    <h3>Make transaction history accessible</h3>
+                                    <p class="why">Having an easy way to verify every on-chain interaction with your dapp builds trust.</p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="container bg-2">
+                    <div class="row align-items-center">
+                        <div class="col-lg-4 order-lg-1"> 
+                            <div class="p-5">
+                                <img class="img-fluid principle-img" alt="Circle" src="img/img-bake.png"> </div>
+                            </div>
+                        <div class="col-lg-8 order-lg-2">
+                                <div class="p-5">
+                                    <h3>Bake education into the onboarding flow step-by-step</h3>
+                                    <p class="why">The user has a model of the Internet that doesn’t always match blockchain reality.</p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="container bg-3">
+                    <div class="row align-items-center">
+                        <div class="col-lg-4 order-lg-1"> 
+                            <div class="p-5">
+                                <img class="img-fluid principle-img" alt="Circle" src="img/img-start.png"> </div>
+                            </div>
+                        <div class="col-lg-8 order-lg-2">
+                                <div class="p-5">
+                                    <h3>Start with small transactions, ease into larger ones</h3>
+                                    <p class="why">Users acquire confidence in your dapp gradually, starting big can scare them away.</p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <footer class="footer-4 space--sm text-center-xs">
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-4">
+                            <span class="foot-label">Subscribe and get the latest news</span>
                             <form class="row" action="//mrare.us8.list-manage.com/subscribe/post?u=77142ece814d3cff52058a51f&amp;id=f300c9cce8" data-success="Thanks for signing up.  Please check your inbox for a confirmation email." data-error="Please provide your email address.">
-                                <div class="col-sm-9"> <input class="validate-required validate-email" name="EMAIL" placeholder="Email Address" type="text"> </div>
+                                <div class="col-sm-9"> <input class="validate-required validate-email foot-input" name="EMAIL" placeholder="Email Address" type="text"> </div>
                                 <div class="col-sm-3"> <button type="submit" class="btn btn--primary type--uppercase"><span class="btn__text">→</span></button> </div>
                                 <div style="position: absolute; left: -5000px" aria-hidden="true"> <input name="b_77142ece814d3cff52058a51f_f300c9cce8" tabindex="-1" value="" type="text"> </div>
                             </form>
                         </div>
-                        <div class="col-sm-4"> <img alt="Image" class="logo" src="img/logo-light.png"> </div>
-                        <div class="col-sm-4 text-right text-center-xs block--xs">
-                            <span>Follow us</span>
-                            <ul class="social-list list-inline list--hover">
-                                <li><a href="#"><i class="socicon socicon-twitter icon icon--xs"></i></a></li>
+                        <div class="col-sm-4"> 
+                            <p class="foot-logo text-center">designforcrypto</p>
+                        </div>
+                        <div class="col-sm-4 text-left text-center-xs block--xs">
+                            <span class="foot-label">Follow us<br/></span>
+                                <ul class="foot-icons social-list list-inline list--hover">
+                                <li><a href="#"><i class="socicon socicon-twitter icon icon--sm"></i></a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-sm-6"> <span class="type--fine-print">Made with <3 and \, by Zeppelin and the open UX community</span>  </div>
+                        <hr>
+                        <div class="container">
+                         <p class="type--fine-print m-0 text-center text-white small">Made with ❤️ and ⚡ by Zeppelin and the open UX community</p>
+                         </div>
                     </div>
                 </div>
             </footer>
-        </div>
+        </section>
         <script src="js/jquery-3.1.1.min.js"></script>
         <script src="js/parallax.js"></script>
         <script src="js/smooth-scroll.min.js"></script>

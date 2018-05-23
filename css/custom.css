@@ -19,43 +19,118 @@ footer {
 }
 
 .bg-1 {
-    background: #36455B;
-    color: #fff;
-}
-
-.bg-2 {
-    background: #1CA495;
-    color: #fff;
-}
-
-.bg-3 {
-    background: #DD7373;
-    color: #fff;
-}
-
-.bg-4 {
     background: #3B3561;
     color: #fff;
 }
 
-.bg-5 {
+.bg-2 {
     background: #9055A2;
     color: #fff;
 }
 
-.bg-7 {
-    background: #fff;
-    color: #000;
-} 
- 
-.bg-1, .bg-2, .bg-3, .bg.4, .bg-5, .bg-6, .bg-7 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+.bg-3 {
+    background: #6BF091;
+    color: #333;
+}
+
+.bg-4 {
+    background: #EAEAEA;
+    color: #333;
+}
+
+.bg-1,.bg-2, .bg-3, .bg-4  {
     min-width: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    margin: 0;
+    left: 0;
+}
+
+.bg-3 h3, .bg-4 h3  {
+    color: #333;
+}
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.align-items-center {
+    -ms-flex-align: center!important;
+    align-items: center!important;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+img.principle-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.above-fold {
+    padding-bottom: 7.42857143em 
+}
+
+.foot-label {
+    font-family: Montserrat-Bold;
+    font-size: 12px;
+    color: #FFFFFF;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    clear: both;
+}
+
+.foot-icons i {
+    color: #6BF091;
+    position: relative;
+    margin-top: 20px;
+}
+
+input.foot-input {
+    background: #353535;
+    font-family: OpenSans;
+    font-size: 14px;
+    color: #6C6C6C;
+    letter-spacing: 0;
+    line-height: 26px;
+    border: none;
+}
+
+.foot-logo {
+    font-family: Montserrat-Bold;
+    font-size: 26px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+footer hr {
+    height: 1px;
+    background:#797979;
+    min-width: 100%;
+    opacity: 0.1;
+
+}
+
+p.type--fine-print {
+    font-family: OpenSans;
+    font-size: 12px;
+    color: #797979!important;
+    letter-spacing: 0;
+    line-height: 22px;
+}
+
+.p-5 {
+    padding: 3rem!important;
 }
 
 .why {
@@ -64,4 +139,30 @@ footer {
 
 p {
     font-size: 16px;
+}
+
+@media (min-width: 992px)
+.order-lg-2 {
+    -ms-flex-order: 2;
+    order: 2;
+}
+@media (min-width: 992px)
+.col-lg-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.align-items-center {
+    -ms-flex-align: center!important;
+    align-items: center!important;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
 }

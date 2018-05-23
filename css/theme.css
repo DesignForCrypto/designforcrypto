@@ -951,8 +951,8 @@ div[data-overlay] ul {
 }
 .btn--primary,
 .btn--primary:visited {
-  background: #FFF400;
-  border-color: #FFF400;
+  background: #6BF091;
+  border-color: #35E768;
 }
 .btn--primary .btn__text,
 .btn--primary:visited .btn__text {
@@ -963,7 +963,7 @@ div[data-overlay] ul {
   color: #000;
 }
 .btn--primary:hover {
-  background: #FFCF00;
+  background: #35E768;
 }
 .btn--primary:active {
   background: #FFCF00;
@@ -3449,7 +3449,6 @@ section.text-right > .container:last-child > .row:only-child > div[class*='col-'
 section,
 footer {
   padding-top: 7.42857143em;
-  padding-bottom: 7.42857143em;
 }
 section.space--xxs,
 footer.space--xxs {
