@@ -5,6 +5,8 @@
 
 h1,h3,h4 {
     font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-style: normal
 }
 
 h3,h4 {
@@ -27,36 +29,33 @@ footer {
 }
 
 .bg-3 {
-    background: #F6E54F;
-    color: #000;
-}
-
-.bg-3 h3 {
-    color: #000;
-}
-
-.bg-4 {
     background: #DD7373;
     color: #fff;
 }
 
-.bg-5 {
+.bg-4 {
     background: #3B3561;
     color: #fff;
 }
 
-.bg-6 {
+.bg-5 {
     background: #9055A2;
     color: #fff;
 }
 
 .bg-7 {
-    background: #EAEAEA;
+    background: #fff;
     color: #000;
-}
-
-.bg-7 h3 {
-    color: #000;
+} 
+ 
+.bg-1, .bg-2, .bg-3, .bg.4, .bg-5, .bg-6, .bg-7 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    min-width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .why {
@@ -65,23 +64,4 @@ footer {
 
 p {
     font-size: 16px;
-}
-
-/* 2-color version */
-
-.bg-c1 {
-    background: #FFE473;
-    color: #000;
-}
-.bg-c1 h3 {
-    color: #000;
-}
-
-
-.bg-c2 {
-    background: #FFE88C;
-    color: #000;
-}
-.bg-c2 h3 {
-    color: #000;
 }
