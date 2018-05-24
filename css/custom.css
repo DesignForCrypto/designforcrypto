@@ -38,6 +38,12 @@ footer {
     background: #9055A2;
     color: #fff;
 }
+.bg-2 h1 {
+    color: #fff;
+}
+.bg-2 p {
+    color: #fff;
+}
 
 .bg-3 {
     background: #6BF091;
@@ -228,7 +234,6 @@ p.background-info {
    right: -25px;
  }
 }
-
 
 .case-detail h3 {
    color:#333;
