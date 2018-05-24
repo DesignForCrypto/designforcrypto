@@ -57,12 +57,12 @@
         </div>
 
     <main role="main">
-      <section class="bg-1 jumbotron text-center">
+      <section class="bg-2 jumbotron text-center">
         <div class="container ">
             <div class="row align-items-center">
-              <img class="../img-fluid principle-img" alt="Circle" src="../img/img-refuse.png"> </div>  
-              <h1 class="principle">Avoid signups from used addresses</h1>
-              <p class="lead align-items-center principle-why">The user’s transaction history across dapps shouldn’t be public</p>
+              <img class="../img-fluid principle-img" alt="Circle" src="../img/img-direct.png"> </div>  
+              <h1 class="principle">Direct attention away from transaction statuses</h1>
+              <p class="lead align-items-center principle-why">Human attention span is shorter than the blockchain's update time</p>
             </div>
         </div>
       </section>
@@ -70,7 +70,7 @@
       <section>
           <div class="container">
               <blockquote class="quote-card border-bg1">
-              <p class="background-info"> You’re responsible for safeguarding the user’s privacy. Assume the data on the blockchain will remain there forever, and that it will be trivial to correlate user-operated addresses through their transaction history. Avoid linking addresses with a history to anything that contains the user’s personal information.</p>
+              <p class="background-info">The user's attention is a precious resource. Embrace long confirmation times as inevitable, and de-emphasize transactions waiting to be cleared.</p>
             </blockquote>
           </div>
       </section>
@@ -79,8 +79,26 @@
         <div class="container">
             <div class="row case-detail">
                 <div class="col-md-12">
-                    <p>Early in your dapp’s onboarding process, check whether the public address that the user is signing up with has been used before.</p>
-                    <h3>Case 1: your signup is free or subsidized</h3>
+                    <p>It's important to keep users informed about the system's status, but that doesn't mean transactions should steal the show. <strong>Never block the UI while waiting for the blockchain.</strong> Instead, consider these options:</p>
+                    <h3>Option A: status bar</h3>
+                    <p></p>
+                    <p>Signing up for <a href="https://cryptokitties.co">CryptoKitties</a> is free and done off-chain. They ask the user's web3 provider to sign a message to prove it has the private key to his publicly-exposed Ethereum address.</p>
+                </div>
+                <div class="col-md-6">
+                  <div class="card mb-6 box-shadow top-margin">
+                    <img class="card-img-top" src="../img/01/01-01.png" alt="Signup screen">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="card mb-6 box-shadow top-margin">
+                    <img class="card-img-top" src="../img/01/01-02.png" alt="Metamask signing screen">
+                  </div>
+                </div>
+            </div>
+            <div class="row case-detail">
+                <div class="col-md-12">
+                    <h3>Option B: dedicated section</h3>
+                    <p>another tab on shapeshift, list of transactions cryptokitties</p>
                     <p>If your signup uses an off-chain signature validation or you’re going to cover the costs of storing the user’s data on the blockchain, you should ask the user to switch to a new address. After she does, you can complete the signup.</p>
                     <p>Signing up for <a href="https://cryptokitties.co">CryptoKitties</a> is free and done off-chain. They ask the user's web3 provider to sign a message to prove it has the private key to his publicly-exposed Ethereum address.</p>
                 </div>
@@ -96,51 +114,40 @@
                 </div>
             </div>
             <div class="row case-detail">
-                 <div class="col-md-12">
-                    <br><p>In this case, CryptoKitties should check if the address 0xfdff... has been used for other individual transactions. If so, it should require the user to sign up using a different one, giving user-specific examples of the data correlations that would be exposed.</p>
-                </div>
-                <div class="col-md-6 center-text">
-                  <div class="card mb-6 box-shadow top-margin">
-                    <img class="card-img-top" src="../img/01/01-04.png" alt="Signup screen">
-                  </div>
-                </div>
-            </div>
-            <br>
-            <div class="row case-detail">
                 <div class="col-md-12">
-                    <h3>Case 2: the user needs to pay for her signup</h3>
-                    <p>If the user needs an address with funds to store some signup data on the blockchain, your safest bet is to ask her to switch to a new address, fund it through an exchange or another contract, and finally come back to your dapp to complete the signup. This introduces a lot of friction, but is especially required in dapps that store personal information.</p>
-                    <p>Signing up for <a href="https://bloom.co">Bloom</a> requires the user to complete a blockchain transaction from his web3 provider. Sensitive data is stored in this step, so the right thing to do is to demand a fresh address that's funded by an exchange.</p>
+                    <h3>Option C: notifications</h3>
+                    <p>If your signup uses an off-chain signature validation or you’re going to cover the costs of storing the user’s data on the blockchain, you should ask the user to switch to a new address. After she does, you can complete the signup.</p>
+                    <p>Signing up for <a href="https://cryptokitties.co">CryptoKitties</a> is free and done off-chain. They ask the user's web3 provider to sign a message to prove it has the private key to his publicly-exposed Ethereum address.</p>
                 </div>
                 <div class="col-md-6">
                   <div class="card mb-6 box-shadow top-margin">
-                    <img class="card-img-top" src="../img/01/01-05.png" alt="Signup screen">
+                    <img class="card-img-top" src="../img/01/01-01.png" alt="Signup screen">
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="card mb-6 box-shadow top-margin">
-                    <img class="card-img-top" src="../img/01/01-06.png" alt="Metamask signing screen">
+                    <img class="card-img-top" src="../img/01/01-02.png" alt="Metamask signing screen">
                   </div>
                 </div>
             </div>
-            <br>
             <div class="row case-detail">
                 <div class="col-md-12">
-                    <h3>Issue specific warnings instead of general ones</h3>
-                    <p>It's easy to issue a general warning about addresses and transaction histories being public.</p>
-                    <div class="col-md-6 center-text">
-                        <div class="card mb-6 box-shadow top-margin">
-                            <img class="card-img-top" src="../img/01/01-07.png" alt="Signup screen">
-                        </div>
-                    </div>
-                    <p>But even with these cautions, the user will rarely stop to think about where he's used his account before. A good way to get his attention is by exposing what is publicly known about the address being used.</p>
-                 </div>
-                <div class="col-md-6 center-text">
+                    <h3>About linking to block explorers</h3>
+                    <p>another tab on shapeshift, list of transactions cryptokitties</p>
+                    <p>If your signup uses an off-chain signature validation or you’re going to cover the costs of storing the user’s data on the blockchain, you should ask the user to switch to a new address. After she does, you can complete the signup.</p>
+                    <p>Signing up for <a href="https://cryptokitties.co">CryptoKitties</a> is free and done off-chain. They ask the user's web3 provider to sign a message to prove it has the private key to his publicly-exposed Ethereum address.</p>
+                </div>
+                <div class="col-md-6">
                   <div class="card mb-6 box-shadow top-margin">
-                    <img class="card-img-top" src="../img/01/01-08.png" alt="Signup screen">
+                    <img class="card-img-top" src="../img/01/01-01.png" alt="Signup screen">
                   </div>
                 </div>
-          </div>
+                <div class="col-md-6">
+                  <div class="card mb-6 box-shadow top-margin">
+                    <img class="card-img-top" src="../img/01/01-02.png" alt="Metamask signing screen">
+                  </div>
+                </div>
+            </div>
         </div>
       </div>
     </main>
