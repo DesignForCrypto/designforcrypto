@@ -138,11 +138,19 @@ input.foot-input {
 }
 
 .foot-logo {
-    font-family: Montserrat-Bold;
-    font-size: 26px;
-    color: #FFFFFF;
-    letter-spacing: 0;
     text-align: center;
+    max-height: 1.85714286em;
+    max-width: none;
+    margin: auto;
+
+}
+
+.no-padding-bottom {
+  padding-bottom: 0!important;
+}
+
+.no-padding-top {
+  padding-bottom: 0!important;
 }
 
 footer hr {
