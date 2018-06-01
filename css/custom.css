@@ -142,7 +142,7 @@ input.foot-input {
     text-align: center;
     max-height: 1.85714286em;
     max-width: none;
-    margin: auto;
+    margin-bottom: 1.04em!important;
 
 }
 
