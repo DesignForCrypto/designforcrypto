@@ -246,39 +246,6 @@ p.background-info {
     font-size: 0.8em;
 }
 
-@media (max-width: 640px) {
- .quote-card:after {
-   font-size: 22em;
-   right: -25px;
- }
-}
-
-.case-detail h3 {
-   color:#333;
-}
-
-.bottom-margin {
-   margin-bottom: 1.04em;
-}
-
-/*.detail-nav {
-   background: #35455C;
-   color: #fff;
-*/
-
-.image-group {
-    margin-top:1.04em;
-    margin-bottom: 1.04em;
-}
-
-.top-margin {
-    margin-top:1.04em;
-}
-
-section.pple {
-    padding-bottom: 0!important;
-}
-
 @media (max-width: 767px) { 
     .img-fluid {
         max-width: 80%;
@@ -287,6 +254,7 @@ section.pple {
     .img-fluid.magic-hat {
         margin-top:1.5em;
         margin-left: 10%;
+        width: 60%;
     }
 
     .above-fold {
@@ -295,15 +263,20 @@ section.pple {
         text-align: center;
     }
 
+    h1 + .btn, .h1 + .btn {
+    margin-top: 0.5em;
+}
+
     .above-fold h1, .above-fold .btn {
-    margin-top: 0;
+    margin-top: 0
+    width:80%;
     }
 
     .p-5 {
     padding: 0.5em!important;
     margin-top: 1.2em!important;
     text-align: center;
-    width: 90%;
+    width: 80%;
     margin: auto;
     }
 
@@ -313,4 +286,5 @@ section.pple {
     line-height: normal;
     padding-bottom: 1.2em;
     }
+
 }
