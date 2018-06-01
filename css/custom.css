@@ -107,18 +107,19 @@ img.principle-img {
 }
 
 .foot-label {
-    font-family: Montserrat-Bold;
+    font-family: 'Montserrat', sans-serif;
     font-size: 12px;
+    font-weight: 100;
     color: #FFFFFF;
     letter-spacing: 2.4px;
     text-transform: uppercase;
     clear: both;
+
 }
 
 .foot-icons i {
     color: #6BF091;
     position: relative;
-    margin-top: 20px;
 }
 
 a.principle {
