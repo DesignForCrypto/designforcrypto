@@ -278,3 +278,39 @@ p.background-info {
 section.pple {
     padding-bottom: 0!important;
 }
+
+@media (max-width: 767px) { 
+    .img-fluid {
+        max-width: 80%;
+    }
+
+    .img-fluid.magic-hat {
+        margin-top:1.5em;
+        margin-left: 10%;
+    }
+
+    .above-fold {
+        padding-bottom: 1.5em;
+        padding-top: 1.5em;
+        text-align: center;
+    }
+
+    .above-fold h1, .above-fold .btn {
+    margin-top: 0;
+    }
+
+    .p-5 {
+    padding: 0.5em!important;
+    margin-top: 1.2em!important;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    }
+
+    .bg-1 p, .bg-2 p, .bg-3 p, .bg-4 p {
+    font-size: 1em;
+    letter-spacing: 0;
+    line-height: normal;
+    padding-bottom: 1.2em;
+    }
+}
