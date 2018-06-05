@@ -213,6 +213,16 @@ h1.principle {
     margin-top: 0.83em;
 }
 
+.coming-soon span {
+    text-align: center;
+    padding: 10px;
+    background: #fff;
+    border-radius: 4px;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+
 .quote-card {
     background: white;
     color: #222222;
