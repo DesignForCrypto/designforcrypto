@@ -163,10 +163,14 @@ footer hr {
 
 p.type--fine-print {
     font-family: OpenSans;
-    font-size: 12px;
-    color: #797979!important;
+    font-size: 16px;
+    color: white !important;
     letter-spacing: 0;
     line-height: 22px;
+}
+
+p.type--fine-print a {
+    color: white !important;
 }
 
 .p-5 {
